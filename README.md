@@ -1,2 +1,2 @@
 # coursera-test
-Html, css and js for web developers assignments
+Assignment of HTML, CSS and Javascript for Web Developers
