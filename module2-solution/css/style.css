@@ -1,5 +1,9 @@
 /*
+<<<<<<< HEAD
 * @Author: anchen
+=======
+* @Author: Ziyuan Wang
+>>>>>>> dde810c7476cdfac1211f5c56fb73b283a8bef90
 * @Date:   2016-06-04 20:46:15
 * @Last Modified by:   anchen
 * @Last Modified time: 2016-06-05 09:52:28
@@ -195,4 +199,8 @@ section .sushi {
     width: 100%;
   }
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> dde810c7476cdfac1211f5c56fb73b283a8bef90
