@@ -2,7 +2,7 @@
 * @Author: Ziyuan Wang
 * @Date:   2016-06-09 11:48:41
 * @Last Modified by:   anchen
-* @Last Modified time: 2016-06-09 15:16:28
+* @Last Modified time: 2016-06-09 17:24:20
 */
 
 /*Header*/
@@ -30,7 +30,9 @@
 #nav-list li{
     text-align: center;
 }
-
+#nav-list li:hover, #nav-list li:focus {
+    background-color: #ddd;
+}
 #collapsable-nav ul {
     margin-top: 0;
     margin-bottom: 0;
@@ -42,8 +44,24 @@
 /*End Header*/
 
 /*Section*/
-section div{
+section {
+
+}
+section h3 {
     background-color: gray;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+section p {
+    background-color: gray;
+    position: relative;
+    height: 700px;
+}
+section a {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 /*End section*/
