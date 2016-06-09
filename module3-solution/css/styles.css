@@ -2,7 +2,7 @@
 * @Author: Ziyuan Wang
 * @Date:   2016-06-09 11:48:41
 * @Last Modified by:   anchen
-* @Last Modified time: 2016-06-09 17:24:20
+* @Last Modified time: 2016-06-09 17:38:26
 */
 
 /*Header*/
@@ -59,9 +59,17 @@ section p {
     height: 700px;
 }
 section a {
+    text-decoration: none;
+    color: darkgray;
     position: absolute;
     bottom: 0;
     right: 0;
-}
 
+    margin-right: 8px;
+    margin-bottom: 5px;
+}
+section a:hover, section a:focus {
+    cursor: pointer;
+    color: aliceblue;
+}
 /*End section*/
