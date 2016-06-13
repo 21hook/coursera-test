@@ -1,0 +1,75 @@
+/*
+* @Author: Ziyuan Wang
+* @Date:   2016-06-09 11:48:41
+* @Last Modified by:   anchen
+* @Last Modified time: 2016-06-09 17:38:26
+*/
+
+/*Header*/
+.navbar-default {
+    background-color: gray;
+}
+.navbar-default .navbar-brand {
+    color: #333;
+}
+.navbar-default .navbar-toggle {
+    background-color: gray;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #333;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: gray;
+}
+.navbar-default .navbar-toggle:focus span, .navbar-default .navbar-toggle:hover span {
+    background-color: #ddd;
+}
+#nav-list {
+    background-color: #fff;
+}
+#nav-list li{
+    text-align: center;
+}
+#nav-list li:hover, #nav-list li:focus {
+    background-color: #ddd;
+}
+#collapsable-nav ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#collapsable-nav ul li {
+    border-bottom: 1px solid #000;
+}
+
+/*End Header*/
+
+/*Section*/
+section {
+
+}
+section h3 {
+    background-color: gray;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+section p {
+    background-color: gray;
+    position: relative;
+    height: 700px;
+}
+section a {
+    text-decoration: none;
+    color: darkgray;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    margin-right: 8px;
+    margin-bottom: 5px;
+}
+section a:hover, section a:focus {
+    cursor: pointer;
+    color: aliceblue;
+}
+/*End section*/
