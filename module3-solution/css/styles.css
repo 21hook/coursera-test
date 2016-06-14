@@ -2,7 +2,7 @@
 * @Author: Ziyuan Wang
 * @Date:   2016-06-09 11:48:41
 * @Last Modified by:   anchen
-* @Last Modified time: 2016-06-14 18:57:15
+* @Last Modified time: 2016-06-14 19:10:08
 */
 
 /*Header*/
@@ -45,6 +45,14 @@
 section p {
     background-color: gray;
     height: 1000px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+section h3 {
+    background-color: gray;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /*End section*/
